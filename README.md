@@ -69,7 +69,13 @@ Example:
 MIT - https://gggkiller.mit-license.org/
 
 # Requirements
+- Windows
+- .NET Framework 4.5.2
+- Templates to use
 
+# Compilation Requirements
+- Visual Studio 2015 Community
+- .NET Framework 6.0 (GUtils.NET and BConsole use 6.0 but are compiled aiming 4.5.2 which is the version for MS.FileGlobbing)
 - [GUtils.NET](https://github.com/GGG-KILLER/GUtils.NET) (requires re-referencing)
 - [BConsole](https://github.com/GGG-KILLER/GUtils.NET) (requires re-referencing)
 - Costura.Fody (nuget restores it automatically)
