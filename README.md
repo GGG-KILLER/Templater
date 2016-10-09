@@ -21,7 +21,7 @@ You also can.
 # How does it work?
 
 1. You create a folder with all your template files (and maybe more?);
-2. You add a [`template.json` file](https://github.com/GGG-KILLER/Templater#templatejson-configuration) inside your template folder and fill in the fields;
+2. You add a [`template.json` file](#templatejson-configuration) inside your template folder and fill in the fields;
 3. You copy your template folder to the `templates` directory in the same directory as the program (create it if it doesn't exists);
 4. Now simply call `templater [template folder name] [inline values to replace as -key value pairs]`;
 5. The template will be implemented on `<current working directory>/<template folder name>/` automagically.
