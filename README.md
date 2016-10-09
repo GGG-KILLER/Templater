@@ -2,7 +2,7 @@
 
 This is a small console utility that provides you with the ability to use file & directory templates for anything you can imagine.
 
-# What can I do?
+# What can I do with it?
 Want to save a base project and have it available for copy?
 You can.
 
@@ -21,7 +21,7 @@ You also can.
 # How does it work?
 
 1. You create a folder with all your template files (and maybe more?);
-2. You add a `template.json` file inside your template folder and fill in the required fields (refer to `Template.json configuration` below for instructions);
+2. You add a [`template.json` file](https://github.com/GGG-KILLER/Templater#templatejson-configuration) inside your template folder and fill in the fields;
 3. You copy your template folder to the `templates` directory in the same directory as the program (create it if it doesn't exists);
 4. Now simply call `templater [template folder name] [inline values to replace as -key value pairs]`;
 5. The template will be implemented on `<current working directory>/<template folder name>/` automagically.
@@ -30,7 +30,7 @@ You also can.
 Download the executable from the Releases section and then put it somewhere on your PATH.
 
 # Template.json configuration
-The `template.json` is a JSON file (if you don't know what it is, search before trying to create it) and consists of 4 fields:
+The `template.json` is a JSON file (if you don't know what it is, search before trying to create it) and consists of 4 fields (all optional, but the file should exist and be a valid empty json array if you don't use any):
 
 - `setupTasks` - An array of strings containing all commands to run after all files are copied and processed
 - `ignore` - An array of strings containing all files to ignore (will not be copied) (Globs supported!)
@@ -39,10 +39,15 @@ The `template.json` is a JSON file (if you don't know what it is, search before 
 
 # Inline replacing
 The inline replacing (called `processing`) is basically turning this:
+
 `<title>{ProjectName} - Home</title>`
+
 into this:
+
 `<title>Foo Bar - Home</title>`
+
 when the program is run like this:
+
 `templater <templatename> -ProjectName "Foo Bar"`
 
 If you don't want inline values to be replaced in a file, use the `processIgnore` field on the `template.json` file.
@@ -62,3 +67,11 @@ Example:
 
 # License
 MIT - https://gggkiller.mit-license.org/
+
+# Requirements
+
+- [GUtils.NET](https://github.com/GGG-KILLER/GUtils.NET) (requires re-referencing)
+- [BConsole](https://github.com/GGG-KILLER/GUtils.NET) (requires re-referencing)
+- Costura.Fody (nuget restores it automatically)
+- Newtonsoft.Json (nuget restores it automatically)
+- Microsoft.Extensions.FileGlobbing (nuget restores it automatically)
