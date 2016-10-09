@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "templater", "templater\templater.csproj", "{DE2F4D13-5D41-49F3-B46E-E621D482AF3E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BConsoleFramework", "..\BConsoleFramework\BConsoleFramework\BConsoleFramework.csproj", "{1F49AEFD-BCFF-4299-87A8-9CEFB8FE9020}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GUtils", "..\GUtils\GUtils\GUtils.csproj", "{BB8DD011-DC34-4965-94F8-F56565239545}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DE2F4D13-5D41-49F3-B46E-E621D482AF3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE2F4D13-5D41-49F3-B46E-E621D482AF3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE2F4D13-5D41-49F3-B46E-E621D482AF3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE2F4D13-5D41-49F3-B46E-E621D482AF3E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F49AEFD-BCFF-4299-87A8-9CEFB8FE9020}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F49AEFD-BCFF-4299-87A8-9CEFB8FE9020}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F49AEFD-BCFF-4299-87A8-9CEFB8FE9020}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F49AEFD-BCFF-4299-87A8-9CEFB8FE9020}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB8DD011-DC34-4965-94F8-F56565239545}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB8DD011-DC34-4965-94F8-F56565239545}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB8DD011-DC34-4965-94F8-F56565239545}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB8DD011-DC34-4965-94F8-F56565239545}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
