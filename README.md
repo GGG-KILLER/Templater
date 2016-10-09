@@ -27,7 +27,7 @@ You also can.
 5. The template will be implemented on `<current working directory>/<template folder name>/` automagically.
 
 # Installation
-Download the executable from the Releases section and then put it somewhere on your PATH.
+Download the executable from the [Latest Release](https://github.com/GGG-KILLER/Templater/releases/latest) and then put it somewhere on your PATH.
 
 # Template.json configuration
 The `template.json` is a JSON file (if you don't know what it is, search before trying to create it) and consists of 4 fields (all optional, but the file should exist and be a valid empty json array if you don't use any):
